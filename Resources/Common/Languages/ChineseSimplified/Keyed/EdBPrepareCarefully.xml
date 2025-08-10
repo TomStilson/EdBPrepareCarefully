@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- CHANGE NOTES -->
+<!-- v1.5.3 -->
+<!-- ADDED: EdB.PC.Panel.Apparel.ApparelLocked -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.DefaultStyleOption -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.StyleLabel -->
+<!-- ADDED: EdB.PC.AddRelationship.Compatibility -->
+<!-- ADDED: EdB.PC.AddRelationship.UnknownCompatibility -->
+<!-- v1.5.1 -->
+<!-- ADDED: EdB.PC.Dialog.ManageApparel.AllLayers -->
+<!-- ADDED: EdB.PC.Dialog.ManageApparel.AddApparelButton -->
+<!-- ADDED: EdB.PC.Dialog.ManageApparel.UpdateApparelButton -->
+<!-- ADDED: EdB.PC.Dialog.Abilties.PsycastLevelLabel -->
+<!-- ADDED: EdB.PC.Dialog.Preset.Error.FailedToLoad -->
+<!-- ADDED: EdB.PC.Panel.AvailableEquipment.AddButtonLabel -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.CostLabelAndValue -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.DefaultSpawnTypeOption -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.GenderLabel -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.HitPointsLabel -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.MaterialLabel -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.QualityLabel -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.RandomAnimalLabel -->
+<!-- ADDED: EdB.PC.Equipment.AvailableEquipment.SpawnTypeLabel -->
+<!-- ADDED: EdB.PC.Equipment.SelectedEquipment.SpawnType.Animal -->
+<!-- ADDED: EdB.PC.Equipment.SelectedEquipment.SpawnType.Possession -->
+<!-- ADDED: EdB.PC.Equipment.SelectedEquipment.SpawnType.SpawnsNear -->
+<!-- ADDED: EdB.PC.Equipment.SelectedEquipment.SpawnType.SpawnsWith -->
+<!-- ADDED: EdB.PC.Equipment.DefaultOption -->
+<!-- ADDED: EdB.PC.Page.Points.CostSummary.Possessions -->
+<!-- ADDED: EdB.PC.Panel.Backstory.FavoriteColorLabel -->
+<!-- v1.4.1 -->
+<!-- ADDED: EdB.PC.Page.Points.DisablePoints -->
+<!-- ADDED: EdB.PC.Panel.Randomize.Tip.DevelopmentalStage -->
+<!-- ADDED: EdB.PC.Panel.Randomize.Tip.Xenotype -->
+<!-- ADDED: EdB.PC.Panel.Age.Label.BiologicalAge -->
+<!-- ADDED: EdB.PC.Panel.Age.Label.ChronologicalAge -->
+<!-- ADDED: EdB.PC.Panel.Age.Label.Years -->
+<!-- ADDED: EdB.PC.Panel.Age.Label.Days -->
+<!-- v1.3.9 -->
+<!-- ADDED: EdB.PC.Dialog.Abilities.Header -->
+<!-- ADDED: EdB.PC.Dialog.Titles.Header -->
+<!-- ADDED: EdB.PC.Panel.Abilities.None -->
+<!-- ADDED: EdB.PC.Panel.Titles.None -->
+<!-- ADDED: EdB.PC.Panel.Header.None -->
+<!-- v1.3.6 -->
+<!-- REMOVED: EdB.PC.Panel.Traits.Warning.TooManyTraits -->
+<!-- CHANGE NOTES -->
+<!-- v1.3.1 -->
+<!-- NEW: EdB.PC.Dialog.FavoriteColor.Header -->
+<!-- NEW: EdB.PC.Panel.PawnList.Add -->
+<!-- NEW: EdB.PC.Panel.PawnList.Load -->
+<!-- NEW: EdB.PC.Pawn.PawnLayer.Beard -->
+<!-- NEW: EdB.PC.Pawn.PawnLayer.EyeCovering -->
+<!-- NEW: EdB.PC.Pawn.PawnLayer.FaceTattoo -->
+<!-- NEW: EdB.PC.Pawn.PawnLayer.BodyTattoo -->
+<!-- v1.1.1 -->
+<!-- UPDATED: EdB.PC.Error.Initialization -->
+<!-- v1.0.12 -->
+<!-- NEW: EdB.PC.Pawn.BodyType.Oval -->
+<!-- NEW: EdB.PC.Equipment.LoadingProgress.Initializing -->
+<!-- NEW: EdB.PC.Equipment.LoadingProgress.StuffDefs -->
+<!-- NEW: EdB.PC.Equipment.LoadingProgress.ThingDefs -->
+<!-- NEW: EdB.PC.Equipment.LoadingProgress.Finished -->
+<!-- REMOVED: EdB.PC.Panel.Health.PartWithInjury -->
+<!-- v1.0.10 -->
+<!-- NEW: EdB.PC.Equipment.AnimalLabel -->
+<!-- v0.19.9 -->
+<!-- NEW: EdB.PC.Dialog.Backstory.Filter.MatchesFaction -->
+<!-- v0.19.8 -->
+<!-- UPDATED: EdB.PC.Panel.Incapable.Warning -->
+<!-- v0.19.6 -->
+<!-- NEW: EdB.PC.Dialog.Backstory.Filter.SkillBonusFull -->
+<!-- NEW: EdB.PC.Error.Initialization -->
+<!-- UPDATED: EdB.PC.Dialog.Backstory.Filter.SkillBonus -->
+<!-- REMOVED: EdB.PC.Dialog.Backstory.Filter.SkillPenalty -->
+<!-- v0.19.5 -->
+<!-- NEW: EdB.PC.AddParentChild.Header.CreateTemporaryPawn -->
+<!-- NEW: EdB.PC.AddParentChild.Header.SelectWorldPawn -->
+<!-- NEW: EdB.PC.Common.Select -->
+<!-- NEW: EdB.PC.Dialog.Faction.ChooseFaction -->
+<!-- NEW: EdB.PC.Dialog.Faction.LeaderFaction -->
+<!-- NEW: EdB.PC.Dialog.Faction.NumberedFaction -->
+<!-- NEW: EdB.PC.Dialog.Faction.Random -->
+<!-- NEW: EdB.PC.Dialog.Faction.RandomFaction -->
+<!-- NEW: EdB.PC.Dialog.Faction.SelectRandomFaction -->
+<!-- NEW: EdB.PC.Dialog.Faction.SelectSpecificFaction -->
+<!-- NEW: EdB.PC.Panel.Appearance.WorldPawnAlert -->
+<!-- NEW: EdB.PC.Panel.ColonyPawnList.Title -->
+<!-- NEW: EdB.PC.Panel.Health.PartWithInjury -->
+<!-- NEW: EdB.PC.Panel.PawnList.PawnCount -->
+<!-- NEW: EdB.PC.Panel.WorldPawnList.Title -->
+<!-- NEW: EdB.PC.Pawn.HiddenPawnNameFull -->
+<!-- NEW: EdB.PC.Pawn.HiddenPawnNameShort -->
+<!-- NEW: EdB.PC.Pawn.TemporaryPawnNameFull -->
+<!-- NEW: EdB.PC.Pawn.TemporaryPawnNameShort -->
+<!-- NEW: EdB.PC.Dialog.Backstory.Filter.Add -->
+<!-- NEW: EdB.PC.Dialog.Backstory.Filter.NoDisabledWorkTypes -->
+<!-- NEW: EdB.PC.Dialog.Backstory.Filter.NoSkillPenalties -->
+<!-- NEW: EdB.PC.Dialog.Backstory.Filter.SkillBonus -->
+<!-- NEW: EdB.PC.Dialog.Backstory.Filter.SkillPenalty -->
+<!-- UPDATED: EdB.PC.Panel.PawnList.SelectFaction -->
+<!-- REMOVED: EdB.PC.AddParentChild.AddHiddenPawn -->
+<!-- REMOVED: EdB.PC.AddParentChild.Header.SelectHidden -->
+<!-- REMOVED: EdB.PC.Pawn.HiddenPawnName -->
+<!-- v0.17.1.6 -->
+<!-- NEW: EdB.PC.Dialog.Implant.Alert -->
+<!-- NEW: EdB.PC.Dialog.Implant.Alert.Item -->
+<!-- NEW: EdB.PC.Dialog.Implant.Button.Confirm -->
+<!-- NEW: EdB.PC.Dialog.Implant.Conflict -->
+<!-- NEW: EdB.PC.Panel.Traits.Tip.Conflict -->
+<!-- NEW: EdB.PC.Panel.Traits.Tip.Conflict.List.1 -->
+<!-- NEW: EdB.PC.Panel.Traits.Tip.Conflict.List.2 -->
+<!-- NEW: EdB.PC.Panel.Traits.Tip.Conflict.List.Many -->
+<!-- NEW: EdB.PC.Panel.Traits.Tip.Conflict.List.Last -->
+<!-- UPDATED: EdB.PC.Dialog.Implant.Header -->
+<!-- UPDATED: EdB.PC.Panel.Health.HediffTypeImplant -->
+<!-- REMOVED: EdB.PC.Dialog.Implant.Error.Required -->
+<!-- REMOVED: EdB.PC.Panel.Health.SelectImplant -->
+<!-- v0.17.1.4 -->
+<!-- NEW: EdB.PC.Common.Default -->
+<!-- NEW: EdB.PC.Common.NoOptionAvailable -->
+<!-- NEW: EdB.PC.Dialog.Preset.Error.NoCharacter -->
+<!-- v0.17.1.3 -->
+<!-- NEW: EdB.PC.Dialog.Preset.Error.EquipmentFailed -->
+<!-- NEW: EdB.PC.Dialog.Preset.Error.PartialSaveFailure -->
+<!-- NEW: EdB.PC.Dialog.Preset.Error.SaveFailed -->
+<!-- UPDATED: EdB.PC.Panel.RelationshipsParentChild.Title -->
+<LanguageData>
+  <EdB.PC.AddParentChild.Header.AddParent>添加一个父母</EdB.PC.AddParentChild.Header.AddParent>
+  <EdB.PC.AddParentChild.Error.ParentRequired>您必须选择一个亲属</EdB.PC.AddParentChild.Error.ParentRequired>
+  <EdB.PC.AddParentChild.Header.AddChild>添加一个孩子</EdB.PC.AddParentChild.Header.AddChild>
+  <EdB.PC.AddParentChild.Error.ChildRequired>您必须选择一个孩子</EdB.PC.AddParentChild.Error.ChildRequired>
+  <EdB.PC.AddParentChild.Header.SelectColonist>选择一个殖民者</EdB.PC.AddParentChild.Header.SelectColonist>
+  <EdB.PC.AddParentChild.Header.SelectWorldPawn>选择一个世界人物</EdB.PC.AddParentChild.Header.SelectWorldPawn>
+  <EdB.PC.AddParentChild.Header.CreateTemporaryPawn>创建一个临时人物将其他两个人物联系在一起</EdB.PC.AddParentChild.Header.CreateTemporaryPawn>
+  <EdB.PC.AddParentChild.NewHiddenCharacter>新的临时人物</EdB.PC.AddParentChild.NewHiddenCharacter>
+  <EdB.PC.AddParentChild.Temporary>临时</EdB.PC.AddParentChild.Temporary>
+  <EdB.PC.AddParentChild.Colony>殖民地</EdB.PC.AddParentChild.Colony>
+  <EdB.PC.AddParentChild.World>世界</EdB.PC.AddParentChild.World>
+  <EdB.PC.AddRelationship.Header.Relationship>选择关系</EdB.PC.AddRelationship.Header.Relationship>
+  <EdB.PC.AddRelationship.Header.Source>选择一个人物</EdB.PC.AddRelationship.Header.Source>
+  <EdB.PC.AddRelationship.Header.Target>选择一个目标人物</EdB.PC.AddRelationship.Header.Target>
+  <EdB.PC.AddRelationship.Error.RelationshipRequired>您必须选择一种关系</EdB.PC.AddRelationship.Error.RelationshipRequired>
+  <EdB.PC.AddRelationship.Error.SourceRequired>您必须选择一个人物</EdB.PC.AddRelationship.Error.SourceRequired>
+  <EdB.PC.AddRelationship.Error.TargetRequired>您必须选择一个人物</EdB.PC.AddRelationship.Error.TargetRequired>
+  <EdB.PC.AddRelationship.Compatibility>兼容度: {0}</EdB.PC.AddRelationship.Compatibility>
+  <EdB.PC.AddRelationship.UnknownCompatibility>未知</EdB.PC.AddRelationship.UnknownCompatibility>
+  <EdB.PC.Animals.LabelWithGender>{0}, {1}</EdB.PC.Animals.LabelWithGender>
+  <EdB.PC.Animals.LabelWithoutGender>{0}</EdB.PC.Animals.LabelWithoutGender>
+  <EdB.PC.BodyParts.WholeBody>全身</EdB.PC.BodyParts.WholeBody>
+  <EdB.PC.Common.Add>添加</EdB.PC.Common.Add>
+  <EdB.PC.Common.Next>下一步</EdB.PC.Common.Next>
+  <EdB.PC.Common.NoOptionSelected>无</EdB.PC.Common.NoOptionSelected>
+  <EdB.PC.Common.NoOptionAvailable>无</EdB.PC.Common.NoOptionAvailable>
+  <EdB.PC.Common.Cancel>取消</EdB.PC.Common.Cancel>
+  <EdB.PC.Common.Close>关闭</EdB.PC.Common.Close>
+  <EdB.PC.Common.Confirm>确认</EdB.PC.Common.Confirm>
+  <EdB.PC.Common.Default>默认</EdB.PC.Common.Default>
+  <EdB.PC.Common.Select>选择</EdB.PC.Common.Select>
+  <EdB.PC.Dialog.Abilities.Header>选择能力</EdB.PC.Dialog.Abilities.Header>
+  <EdB.PC.Dialog.Abilties.PsycastLevelLabel>灵能登记: {0}</EdB.PC.Dialog.Abilties.PsycastLevelLabel>
+  <EdB.PC.Dialog.Backstory.Filter.Add>设置过滤器</EdB.PC.Dialog.Backstory.Filter.Add>
+  <EdB.PC.Dialog.Backstory.Filter.NoDisabledWorkTypes>无禁用工作类型</EdB.PC.Dialog.Backstory.Filter.NoDisabledWorkTypes>
+  <EdB.PC.Dialog.Backstory.Filter.NoSkillPenalties>无技能惩罚类型</EdB.PC.Dialog.Backstory.Filter.NoSkillPenalties>
+  <EdB.PC.Dialog.Backstory.Filter.SkillBonus>加成：{0} +{1}</EdB.PC.Dialog.Backstory.Filter.SkillBonus>
+  <EdB.PC.Dialog.Backstory.Filter.SkillBonusFull>技能加成：{0}，+{1}及以上</EdB.PC.Dialog.Backstory.Filter.SkillBonusFull>
+  <EdB.PC.Dialog.Backstory.Filter.MatchesFaction>派系背景故事</EdB.PC.Dialog.Backstory.Filter.MatchesFaction>
+  <EdB.PC.Dialog.BodyPart.Header>选择位置</EdB.PC.Dialog.BodyPart.Header>
+  <EdB.PC.Dialog.BodyPart.Error.Required>您必须选择一个位置</EdB.PC.Dialog.BodyPart.Error.Required>
+  <EdB.PC.Dialog.Faction.ChooseFaction>选择派系</EdB.PC.Dialog.Faction.ChooseFaction>
+  <EdB.PC.Dialog.Faction.LeaderFaction>领袖：{0}</EdB.PC.Dialog.Faction.LeaderFaction>
+  <EdB.PC.Dialog.Faction.NumberedFaction>{1}：{0}</EdB.PC.Dialog.Faction.NumberedFaction>
+  <EdB.PC.Dialog.Faction.Random>随机</EdB.PC.Dialog.Faction.Random>
+  <EdB.PC.Dialog.Faction.RandomFaction>随机：{0}</EdB.PC.Dialog.Faction.RandomFaction>
+  <EdB.PC.Dialog.Faction.SelectLeaderFaction>使这个角色成为指定派系的首领</EdB.PC.Dialog.Faction.SelectLeaderFaction>
+  <EdB.PC.Dialog.Faction.SelectRandomFaction>将此人物加入随机派系</EdB.PC.Dialog.Faction.SelectRandomFaction>
+  <EdB.PC.Dialog.Faction.SelectSpecificFaction>将此人物加入特定派系</EdB.PC.Dialog.Faction.SelectSpecificFaction>
+  <EdB.PC.Dialog.FavoriteColor.Header>选择一个人物喜欢的颜色</EdB.PC.Dialog.FavoriteColor.Header>
+  <EdB.PC.Dialog.Implant.Alert>您所选择的植入物至少有一个无法被安装，因为与所选择的另一个冲突：\n{0}</EdB.PC.Dialog.Implant.Alert>
+  <EdB.PC.Dialog.Implant.Alert.Item>- {0}，{1}</EdB.PC.Dialog.Implant.Alert.Item>
+  <EdB.PC.Dialog.Implant.Button.Confirm>应用</EdB.PC.Dialog.Implant.Button.Confirm>
+  <EdB.PC.Dialog.Implant.Conflict>此植入物不能被安装，因为有以下冲突：\n\n- {0}，{1}</EdB.PC.Dialog.Implant.Conflict>
+  <EdB.PC.Dialog.Implant.Header>选择一个植入物或仿生体</EdB.PC.Dialog.Implant.Header>
+  <EdB.PC.Dialog.Implant.InstallImplantLabel>植入物 {0}</EdB.PC.Dialog.Implant.InstallImplantLabel>
+  <EdB.PC.Dialog.Implant.RequiredImplantMessage>此植入物必须添加，因为它是你选择的其他植入物所必需的。</EdB.PC.Dialog.Implant.RequiredImplantMessage>
+  <EdB.PC.Dialog.Implant.LevelLabel>{0}:</EdB.PC.Dialog.Implant.LevelLabel>
+  <EdB.PC.Dialog.Injury.Header>选择一个状态</EdB.PC.Dialog.Injury.Header>
+  <EdB.PC.Dialog.Injury.Error.Required>您必须选择一个状态</EdB.PC.Dialog.Injury.Error.Required>
+  <EdB.PC.Dialog.Injury.OldInjury.Label>{0} ({1})</EdB.PC.Dialog.Injury.OldInjury.Label>
+  <EdB.PC.Dialog.ManageApparel.AllLayers>所有着装层</EdB.PC.Dialog.ManageApparel.AllLayers>
+  <EdB.PC.Dialog.ManageApparel.AddApparelButton>添加</EdB.PC.Dialog.ManageApparel.AddApparelButton>
+  <EdB.PC.Dialog.ManageApparel.UpdateApparelButton>更新</EdB.PC.Dialog.ManageApparel.UpdateApparelButton>
+  <EdB.PC.Dialog.PawnPreset.Button.Load>载入</EdB.PC.Dialog.PawnPreset.Button.Load>
+  <EdB.PC.Dialog.PawnPreset.Button.Save>保存</EdB.PC.Dialog.PawnPreset.Button.Save>
+  <EdB.PC.Dialog.PawnPreset.DeleteTooltip>删除这个人物</EdB.PC.Dialog.PawnPreset.DeleteTooltip>
+  <EdB.PC.Dialog.PawnPreset.ConfirmDelete>您确定想要删除这个人物吗？</EdB.PC.Dialog.PawnPreset.ConfirmDelete>
+  <EdB.PC.Dialog.PawnPreset.Loaded>已载入角色{0}</EdB.PC.Dialog.PawnPreset.Loaded>
+  <EdB.PC.Dialog.PawnPreset.Error.Failed>载入角色失败，请检查是否启用所有有关mod。</EdB.PC.Dialog.PawnPreset.Error.Failed>
+  <EdB.PC.Dialog.PawnPreset.Error.PreAlpha13NotSupported>不支持在A13版本之前保存的人物。</EdB.PC.Dialog.PawnPreset.Error.PreAlpha13NotSupported>
+  <EdB.PC.Dialog.Preset.Button.Load>载入预设</EdB.PC.Dialog.Preset.Button.Load>
+  <EdB.PC.Dialog.Preset.Button.Save>保存预设</EdB.PC.Dialog.Preset.Button.Save>
+  <EdB.PC.Dialog.Preset.ConfirmDelete>您确定想要删除这个预设吗？</EdB.PC.Dialog.Preset.ConfirmDelete>
+  <EdB.PC.Dialog.Preset.DeleteTooltip>删除这个预设</EdB.PC.Dialog.Preset.DeleteTooltip>
+  <EdB.PC.Dialog.Preset.Error.EquipmentFailed>无法载入预设中的装备。</EdB.PC.Dialog.Preset.Error.EquipmentFailed>
+  <EdB.PC.Dialog.Preset.Error.Failed>从预设方案中载入人物失败，请检查是否启用所有有关mod。</EdB.PC.Dialog.Preset.Error.Failed>
+  <EdB.PC.Dialog.Preset.Error.PartialSaveFailure>保存预设时遇到问题，一些自定义内容未被包含。</EdB.PC.Dialog.Preset.Error.PartialSaveFailure>
+  <EdB.PC.Dialog.Preset.Error.PreAlpha13NotSupported>不支持在A13版本之前保存的预设。</EdB.PC.Dialog.Preset.Error.PreAlpha13NotSupported>
+  <EdB.PC.Dialog.Preset.Error.RelationshipFailed>无法从预设中加载自定义关系。</EdB.PC.Dialog.Preset.Error.RelationshipFailed>
+  <EdB.PC.Dialog.Preset.Error.SaveFailed>保存时遇到问题，您可能无法载入此预设。</EdB.PC.Dialog.Preset.Error.SaveFailed>
+  <EdB.PC.Dialog.Preset.Error.ThingDefFailed>无法完全载入预设，请检查是否已启用所有有关mod。</EdB.PC.Dialog.Preset.Error.ThingDefFailed>
+  <EdB.PC.Dialog.Preset.Error.NoCharacter>无法载入保存的角色，请检查是否已启用所有有关mod。</EdB.PC.Dialog.Preset.Error.NoCharacter>
+  <EdB.PC.Dialog.Preset.Error.FailedToLoad>未能载入预设 {0}</EdB.PC.Dialog.Preset.Error.FailedToLoad>
+  <EdB.PC.Dialog.Preset.Loaded>已载入预设 {0}</EdB.PC.Dialog.Preset.Loaded>
+  <EdB.PC.Dialog.Severity.Header>选择一个伤害程度</EdB.PC.Dialog.Severity.Header>
+  <EdB.PC.Dialog.Severity.Error.Required>您必须选择一个伤害程度</EdB.PC.Dialog.Severity.Error.Required>
+  <EdB.PC.Dialog.Severity.OldInjury.Label.2>2点伤害</EdB.PC.Dialog.Severity.OldInjury.Label.2>
+  <EdB.PC.Dialog.Severity.OldInjury.Label.3>3点伤害</EdB.PC.Dialog.Severity.OldInjury.Label.3>
+  <EdB.PC.Dialog.Severity.OldInjury.Label.4>4点伤害</EdB.PC.Dialog.Severity.OldInjury.Label.4>
+  <EdB.PC.Dialog.Severity.OldInjury.Label.5>5点伤害</EdB.PC.Dialog.Severity.OldInjury.Label.5>
+  <EdB.PC.Dialog.Severity.OldInjury.Label.6>6点伤害</EdB.PC.Dialog.Severity.OldInjury.Label.6>
+  <EdB.PC.Dialog.Severity.Stage.Label.>{0} {1}</EdB.PC.Dialog.Severity.Stage.Label.>
+  <EdB.PC.Dialog.Titles.Header>添加一个头衔</EdB.PC.Dialog.Titles.Header>
+  <EdB.PC.Dialog.UnrecoverableError.Header>不可恢复的错误</EdB.PC.Dialog.UnrecoverableError.Header>
+  <EdB.PC.Dialog.UnrecoverableError.Message>出现了一个精心准备不可恢复的错误，以下错误信息可以帮助您识别问题：
+
+"{0}"</EdB.PC.Dialog.UnrecoverableError.Message>
+  <EdB.PC.Equipment.AnimalLabel>{0} {1}</EdB.PC.Equipment.AnimalLabel>
+  <EdB.PC.Equipment.DefaultOption>默认</EdB.PC.Equipment.DefaultOption>
+  <EdB.PC.Equipment.Type.Animals>动物</EdB.PC.Equipment.Type.Animals>
+  <EdB.PC.Equipment.Type.Apparel>服装</EdB.PC.Equipment.Type.Apparel>
+  <EdB.PC.Equipment.Type.Buildings>家具</EdB.PC.Equipment.Type.Buildings>
+  <EdB.PC.Equipment.Type.Food>食物</EdB.PC.Equipment.Type.Food>
+  <EdB.PC.Equipment.Type.Mechs>机械体</EdB.PC.Equipment.Type.Mechs>
+  <EdB.PC.Equipment.Type.Medical>药物</EdB.PC.Equipment.Type.Medical>
+  <EdB.PC.Equipment.Type.Resources>资源</EdB.PC.Equipment.Type.Resources>
+  <EdB.PC.Equipment.Type.Weapons>武器</EdB.PC.Equipment.Type.Weapons>
+  <EdB.PC.Equipment.LoadingProgress.Initializing>正在初始化…</EdB.PC.Equipment.LoadingProgress.Initializing>
+  <EdB.PC.Equipment.LoadingProgress.StuffDefs>材料加载中…</EdB.PC.Equipment.LoadingProgress.StuffDefs>
+  <EdB.PC.Equipment.LoadingProgress.ThingDefs>物品加载中…</EdB.PC.Equipment.LoadingProgress.ThingDefs>
+  <EdB.PC.Equipment.LoadingProgress.Finished>完成</EdB.PC.Equipment.LoadingProgress.Finished>
+  <EdB.PC.Equipment.SelectedEquipment.OverseenChanceLabel>{0}: {1}%</EdB.PC.Equipment.SelectedEquipment.OverseenChanceLabel>
+  <EdB.PC.Equipment.SelectedEquipment.SpawnType.SpawnsWith>与殖民者一起生成</EdB.PC.Equipment.SelectedEquipment.SpawnType.SpawnsWith>
+  <EdB.PC.Equipment.SelectedEquipment.SpawnType.SpawnsNear>在殖民者附近生成</EdB.PC.Equipment.SelectedEquipment.SpawnType.SpawnsNear>
+  <EdB.PC.Equipment.SelectedEquipment.SpawnType.Possession>持有者 - {0}</EdB.PC.Equipment.SelectedEquipment.SpawnType.Possession>
+  <EdB.PC.Equipment.SelectedEquipment.SpawnType.Animal>动物</EdB.PC.Equipment.SelectedEquipment.SpawnType.Animal>
+  <EdB.PC.Equipment.SelectedEquipment.SpawnType.Mech>机械体</EdB.PC.Equipment.SelectedEquipment.SpawnType.Mech>
+  <EdB.PC.Equipment.AvailableEquipment.AllCategoriesOption>所有种类</EdB.PC.Equipment.AvailableEquipment.AllCategoriesOption>
+  <EdB.PC.Equipment.AvailableEquipment.AllModsOption>所有扩展</EdB.PC.Equipment.AvailableEquipment.AllModsOption>
+  <EdB.PC.Equipment.AvailableEquipment.CostLabelAndValue>点数: {0}</EdB.PC.Equipment.AvailableEquipment.CostLabelAndValue>
+  <EdB.PC.Equipment.AvailableEquipment.DefaultSpawnTypeOption>默认</EdB.PC.Equipment.AvailableEquipment.DefaultSpawnTypeOption>
+  <EdB.PC.Equipment.AvailableEquipment.DefaultStyleOption>默认</EdB.PC.Equipment.AvailableEquipment.DefaultStyleOption>
+  <EdB.PC.Equipment.AvailableEquipment.GenderLabel>性别:</EdB.PC.Equipment.AvailableEquipment.GenderLabel>
+  <EdB.PC.Equipment.AvailableEquipment.HitPointsLabel>袭击点数:</EdB.PC.Equipment.AvailableEquipment.HitPointsLabel>
+  <EdB.PC.Equipment.AvailableEquipment.MaterialLabel>材质:</EdB.PC.Equipment.AvailableEquipment.MaterialLabel>
+  <EdB.PC.Equipment.AvailableEquipment.MechCategoryLabel>机械体</EdB.PC.Equipment.AvailableEquipment.MechCategoryLabel>
+  <EdB.PC.Equipment.AvailableEquipment.QualityLabel>质量:</EdB.PC.Equipment.AvailableEquipment.QualityLabel>
+  <EdB.PC.Equipment.AvailableEquipment.OverseenChanceLabel>{0}:</EdB.PC.Equipment.AvailableEquipment.OverseenChanceLabel>
+  <EdB.PC.Equipment.AvailableEquipment.RandomAnimalLabel>随机宠物</EdB.PC.Equipment.AvailableEquipment.RandomAnimalLabel>
+  <EdB.PC.Equipment.AvailableEquipment.RandomMechLabel>随机机械体</EdB.PC.Equipment.AvailableEquipment.RandomMechLabel>
+  <EdB.PC.Equipment.AvailableEquipment.SpawnTypeLabel>生成类型:</EdB.PC.Equipment.AvailableEquipment.SpawnTypeLabel>
+  <EdB.PC.Equipment.AvailableEquipment.StyleLabel>风格:</EdB.PC.Equipment.AvailableEquipment.StyleLabel>
+  <EdB.PC.Error.NotEnoughPoints>您使用了了过多的点数。</EdB.PC.Error.NotEnoughPoints>
+  <EdB.PC.Error.NotEnoughColonists1>您必须拥有至少一个人物。</EdB.PC.Error.NotEnoughColonists1>
+  <EdB.PC.Error.NotEnoughColonists>您必须拥有至少{0}个人物。</EdB.PC.Error.NotEnoughColonists>
+  <EdB.PC.Error.GameVersion>精心准备初始化失败。
+  
+您运行的边缘世界可能版本过老
+
+您正在运行的游戏版本为{0}而精心准备需要至少{1}的游戏版本。
+  
+请更新游戏到最低所需版本或最新版本，看可否解决您的问题。
+  </EdB.PC.Error.GameVersion>
+  <EdB.PC.Error.Initialization>精心准备初始化失败。
+  
+这是某些模组与该mod无法兼容引起的，当使用一些特殊的物品/派系的时候，精心准备会无法识别，一般情况下，精心准备需要进行修复才能和其他模组一起使用.其他情况下，另一个模组需要进行修复，不幸的是，有的模组因为对游戏进行了过多的改动，可能永远无法与精心准备一同使用.：-(
+
+在报告错误之前，请尝试找出是哪个模组导致的问题.如果您有很多模组，可以使用二分法禁用模组，直到找到导致问题的模组.
+  </EdB.PC.Error.Initialization>
+  <EdB.PC.Pawn.AgeWithChronological>{0} ({1})</EdB.PC.Pawn.AgeWithChronological>
+  <EdB.PC.Pawn.AgeWithoutChronological>{0}</EdB.PC.Pawn.AgeWithoutChronological>
+  <EdB.PC.Pawn.BodyType.Average>标准</EdB.PC.Pawn.BodyType.Average>
+  <EdB.PC.Pawn.BodyType.Heavyset>肥胖</EdB.PC.Pawn.BodyType.Heavyset>
+  <EdB.PC.Pawn.BodyType.Hulking>强壮</EdB.PC.Pawn.BodyType.Hulking>
+  <EdB.PC.Pawn.BodyType.Oval>丰腴</EdB.PC.Pawn.BodyType.Oval>
+  <EdB.PC.Pawn.BodyType.Thin>纤瘦</EdB.PC.Pawn.BodyType.Thin>
+  <EdB.PC.Pawn.BodyType.Unnamed>未知</EdB.PC.Pawn.BodyType.Unnamed>
+  <EdB.PC.Pawn.HiddenPawnDescriptionWithGender>{0}，{1}</EdB.PC.Pawn.HiddenPawnDescriptionWithGender>
+  <EdB.PC.Pawn.HiddenPawnDescriptionNoGender>{0}</EdB.PC.Pawn.HiddenPawnDescriptionNoGender>
+  <EdB.PC.Pawn.HiddenPawnNameFull>隐藏人物{0}</EdB.PC.Pawn.HiddenPawnNameFull>
+  <EdB.PC.Pawn.HiddenPawnNameShort>隐藏人物{0}</EdB.PC.Pawn.HiddenPawnNameShort>
+  <EdB.PC.Pawn.HiddenPawnProfession>未知</EdB.PC.Pawn.HiddenPawnProfession>
+  <EdB.PC.Pawn.PawnDescriptionWithGender>{0}，{1}，年龄{2}</EdB.PC.Pawn.PawnDescriptionWithGender>
+  <EdB.PC.Pawn.PawnDescriptionNoGender>{0}，年龄{1}</EdB.PC.Pawn.PawnDescriptionNoGender>
+  <EdB.PC.Pawn.PawnLayer.Accessory>附件</EdB.PC.Pawn.PawnLayer.Accessory>
+  <EdB.PC.Pawn.PawnLayer.AlienAddonOption>选项{0}</EdB.PC.Pawn.PawnLayer.AlienAddonOption>
+  <EdB.PC.Pawn.PawnLayer.Beard>胡须</EdB.PC.Pawn.PawnLayer.Beard>
+  <EdB.PC.Pawn.PawnLayer.BodyTattoo>纹身</EdB.PC.Pawn.PawnLayer.BodyTattoo>
+  <EdB.PC.Pawn.PawnLayer.BodyType>体型</EdB.PC.Pawn.PawnLayer.BodyType>
+  <EdB.PC.Pawn.PawnLayer.BottomClothingLayer>底部着装层</EdB.PC.Pawn.PawnLayer.BottomClothingLayer>
+  <EdB.PC.Pawn.PawnLayer.EyeCovering>眼罩</EdB.PC.Pawn.PawnLayer.EyeCovering>
+  <EdB.PC.Pawn.PawnLayer.FaceTattoo>面纹</EdB.PC.Pawn.PawnLayer.FaceTattoo>
+  <EdB.PC.Pawn.PawnLayer.Hair>发型</EdB.PC.Pawn.PawnLayer.Hair>
+  <EdB.PC.Pawn.PawnLayer.Hat>帽子</EdB.PC.Pawn.PawnLayer.Hat>
+  <EdB.PC.Pawn.PawnLayer.HeadType>脸型</EdB.PC.Pawn.PawnLayer.HeadType>
+  <EdB.PC.Pawn.PawnLayer.MiddleClothingLayer>中部着装层</EdB.PC.Pawn.PawnLayer.MiddleClothingLayer>
+  <EdB.PC.Pawn.PawnLayer.Pants>裤子</EdB.PC.Pawn.PawnLayer.Pants>
+  <EdB.PC.Pawn.PawnLayer.TopClothingLayer>顶部着装层</EdB.PC.Pawn.PawnLayer.TopClothingLayer>
+  <EdB.PC.Pawn.TemporaryPawnNameFull>临时人物{0}</EdB.PC.Pawn.TemporaryPawnNameFull>
+  <EdB.PC.Pawn.TemporaryPawnNameShort>临时人物{0}</EdB.PC.Pawn.TemporaryPawnNameShort>
+  <EdB.PC.Page.Button.LoadPreset>载入预设</EdB.PC.Page.Button.LoadPreset>
+  <EdB.PC.Page.Button.PrepareCarefully>精心准备</EdB.PC.Page.Button.PrepareCarefully>
+  <EdB.PC.Page.Button.SavePreset>保存预设</EdB.PC.Page.Button.SavePreset>
+  <EdB.PC.Page.ConfirmExit>您确定不使用精心准备吗？您所做的所有修改都会丢失。</EdB.PC.Page.ConfirmExit>
+  <EdB.PC.Page.ConfirmStart>您确定已经完成所有自定义了吗？确认将会开始您的游戏!</EdB.PC.Page.ConfirmStart>
+  <EdB.PC.Page.Points.CostSummary.Total>总消耗点数：{0}</EdB.PC.Page.Points.CostSummary.Total>
+  <EdB.PC.Page.Points.CostSummary.Equipment>物资：{0}</EdB.PC.Page.Points.CostSummary.Equipment>
+  <EdB.PC.Page.Points.CostSummary.Apparel>服装：{0}</EdB.PC.Page.Points.CostSummary.Apparel>
+  <EdB.PC.Page.Points.CostSummary.Colonist>{0}：{1}</EdB.PC.Page.Points.CostSummary.Colonist>
+  <EdB.PC.Page.Points.CostSummary.Implants>植入物：{0}</EdB.PC.Page.Points.CostSummary.Implants>
+  <EdB.PC.Page.Points.CostSummary.Possessions>财产: {0}</EdB.PC.Page.Points.CostSummary.Possessions>
+  <EdB.PC.Page.Points.DisablePoints>禁用点数限制</EdB.PC.Page.Points.DisablePoints>
+  <EdB.PC.Page.Points.NotEnoughPoints>您使用了过多的点数。</EdB.PC.Page.Points.NotEnoughPoints>
+  <EdB.PC.Page.Points.Remaining>剩余点数：{0}</EdB.PC.Page.Points.Remaining>
+  <EdB.PC.Page.Points.ScenarioPoints>在这个随机剧本中生成的起始角色和资源总数为{0}点。</EdB.PC.Page.Points.ScenarioPoints>
+  <EdB.PC.Page.Points.Spent>点数消耗：{0}</EdB.PC.Page.Points.Spent>
+  <EdB.PC.Page.Points.Unlimited>无限制</EdB.PC.Page.Points.Unlimited>
+  <EdB.PC.Page.Points.UsePoints>启用点数限制</EdB.PC.Page.Points.UsePoints>
+  <EdB.PC.Page.Points.UsePoints.Tip>启用点数限制来维持一个相对平衡的开局，通过消耗有限的点数来获得技能、新的角色和物资.您的起始点数取决于您选择的剧本所生成的角色和物资点数总量。
+
+    禁用点数限制来进行无限制的开局准备。
+  </EdB.PC.Page.Points.UsePoints.Tip>
+  <EdB.PC.Page.Title>精心准备</EdB.PC.Page.Title>
+  <EdB.PC.Panel.Abilities.None>无能力</EdB.PC.Panel.Abilities.None>
+  <EdB.PC.Panel.Age.Header>年龄</EdB.PC.Panel.Age.Header>
+  <EdB.PC.Panel.Age.Label.BiologicalAge>生理年龄</EdB.PC.Panel.Age.Label.BiologicalAge>
+  <EdB.PC.Panel.Age.Label.ChronologicalAge>历法年龄</EdB.PC.Panel.Age.Label.ChronologicalAge>
+  <EdB.PC.Panel.Age.Label.Years>岁</EdB.PC.Panel.Age.Label.Years>
+  <EdB.PC.Panel.Age.Label.Days>天</EdB.PC.Panel.Age.Label.Days>
+  <EdB.PC.Panel.Age.Biological>生理年龄</EdB.PC.Panel.Age.Biological>
+  <EdB.PC.Panel.Age.Chronological>历法年龄</EdB.PC.Panel.Age.Chronological>
+  <EdB.PC.Panel.Apparel.ApparelLocked>This character is restricted from wearing apparel</EdB.PC.Panel.Apparel.ApparelLocked>
+  <EdB.PC.Panel.Appearance.ApparelConflict.Description>您所选择的{0}不能与以下服装同时穿着：</EdB.PC.Panel.Appearance.ApparelConflict.Description>
+  <EdB.PC.Panel.Appearance.ApparelConflict.LineItem> - {0}</EdB.PC.Panel.Appearance.ApparelConflict.LineItem>
+  <EdB.PC.Panel.Appearance.NoneSelected>无</EdB.PC.Panel.Appearance.NoneSelected>
+  <EdB.PC.Panel.Appearance.WorldPawnAlert>游戏通常会自动“纠正”世界角色，在地图上生成它们之前为它们提供新的服装和装备。如果您选择自定义服装选项，在遇到该角色时这些自定义设置可能会丢失。
+
+派系首领的情况并非如此.如果您将此角色设为派系首领，则会保留您的自定义服装。</EdB.PC.Panel.Appearance.WorldPawnAlert>
+  <EdB.PC.Panel.AvailableEquipment.AddButtonLabel>添加物资</EdB.PC.Panel.AvailableEquipment.AddButtonLabel>
+  <EdB.PC.Panel.AvailableEquipment.Add>添加装备</EdB.PC.Panel.AvailableEquipment.Add>
+  <EdB.PC.Panel.AvailableEquipment.Materials.All>全部金属</EdB.PC.Panel.AvailableEquipment.Materials.All>
+  <EdB.PC.Panel.AvailableEquipment.Materials.None>无金属</EdB.PC.Panel.AvailableEquipment.Materials.None>
+  <EdB.PC.Panel.Backstory.FavoriteColorLabel>收藏颜色:</EdB.PC.Panel.Backstory.FavoriteColorLabel>
+  <EdB.PC.Panel.ColonyPawnList.Title>殖民地人物</EdB.PC.Panel.ColonyPawnList.Title>
+  <EdB.PC.Panel.Health.Error.MustSelectBodyPart>您必须选择一个位置</EdB.PC.Panel.Health.Error.MustSelectBodyPart>
+  <EdB.PC.Panel.Health.Error.MustSelectImplant>您必须选择一个植入物</EdB.PC.Panel.Health.Error.MustSelectImplant>
+  <EdB.PC.Panel.Health.Error.MustSelectOption>您必须选择一个选项</EdB.PC.Panel.Health.Error.MustSelectOption>
+  <EdB.PC.Panel.Health.Error.MustSelectSeverity>您必须选择一个伤害程度</EdB.PC.Panel.Health.Error.MustSelectSeverity>
+  <EdB.PC.Panel.Health.HediffTypeInjury>添加伤痕或者健康状态</EdB.PC.Panel.Health.HediffTypeInjury>
+  <EdB.PC.Panel.Health.HediffTypeImplant>添加植入物或仿生体</EdB.PC.Panel.Health.HediffTypeImplant>
+  <EdB.PC.Panel.Health.InjuryLabel.Stage>{0}，{1}</EdB.PC.Panel.Health.InjuryLabel.Stage>
+  <EdB.PC.Panel.Health.InjuryLabel.Severity>{0}</EdB.PC.Panel.Health.InjuryLabel.Severity>
+  <EdB.PC.Panel.Health.None>没有伤痕，健康状态或者植入物</EdB.PC.Panel.Health.None>
+  <EdB.PC.Panel.Health.SelectBodyPart>选择一个位置</EdB.PC.Panel.Health.SelectBodyPart>
+  <EdB.PC.Panel.Health.SelectSeverity>选择一个伤害程度</EdB.PC.Panel.Health.SelectSeverity>
+  <EdB.PC.Panel.Incapable.None>无</EdB.PC.Panel.Incapable.None>
+  <EdB.PC.Panel.Incapable.Warning>所有的角色都无法从事以下的工作，这些工作在原版游戏里是很有必要的.
+
+{0}
+
+您可以和您的人物一起玩这个游戏，但是当您开始这个存档时您可能会看到一个错误信息。</EdB.PC.Panel.Incapable.Warning>
+  <EdB.PC.Panel.Incapable.WarningItem> - {0}</EdB.PC.Panel.Incapable.WarningItem>
+  <EdB.PC.Panel.LoadSave.Load>载入人物</EdB.PC.Panel.LoadSave.Load>
+  <EdB.PC.Panel.LoadSave.Save>保存人物</EdB.PC.Panel.LoadSave.Save>
+  <EdB.PC.Panel.PawnList.Add>添加…</EdB.PC.Panel.PawnList.Add>
+  <EdB.PC.Panel.PawnList.Delete.Confirm>您确定要删除这个人物吗？</EdB.PC.Panel.PawnList.Delete.Confirm>
+  <EdB.PC.Panel.PawnList.Error.FactionPawnFailed>尝试创建新角色时出现意外的错误</EdB.PC.Panel.PawnList.Error.FactionPawnFailed>
+  <EdB.PC.Panel.PawnList.Error.MustSelectFaction>必须选择一个派系</EdB.PC.Panel.PawnList.Error.MustSelectFaction>
+  <EdB.PC.Panel.PawnList.Load>加载…</EdB.PC.Panel.PawnList.Load>
+  <EdB.PC.Panel.PawnList.PawnCount>（{0}）</EdB.PC.Panel.PawnList.PawnCount>
+  <EdB.PC.Panel.PawnList.SelectFaction>选择一个派系</EdB.PC.Panel.PawnList.SelectFaction>
+  <EdB.PC.Panel.Randomize.Tip.DevelopmentalStage>{0}
+点击随机按钮,生成一名该年龄段的殖民者</EdB.PC.Panel.Randomize.Tip.DevelopmentalStage>
+  <EdB.PC.Panel.Randomize.Tip.Xenotype>{0}点击随机按钮，生成具有该种基因的殖民者</EdB.PC.Panel.Randomize.Tip.Xenotype>
+  <EdB.PC.Panel.RelationshipsOther.Title>其他关系</EdB.PC.Panel.RelationshipsOther.Title>
+  <EdB.PC.Panel.RelationshipsParentChild.Title>父母，子女和兄弟姐妹关系</EdB.PC.Panel.RelationshipsParentChild.Title>
+  <EdB.PC.Panel.SelectedEquipment.Remove>移除物资</EdB.PC.Panel.SelectedEquipment.Remove>
+  <EdB.PC.Panel.Skills.ResetTip>将所有技能和兴趣重置为初始值</EdB.PC.Panel.Skills.ResetTip>
+  <EdB.PC.Panel.Skills.ClearTip>将所有技能和兴趣设置为最低</EdB.PC.Panel.Skills.ClearTip>
+  <EdB.PC.Panel.Titles.Header>头衔</EdB.PC.Panel.Titles.Header>
+  <EdB.PC.Panel.Titles.None>无头衔</EdB.PC.Panel.Titles.None>
+  <EdB.PC.Panel.Traits.None>无特性</EdB.PC.Panel.Traits.None>
+  <EdB.PC.Panel.Traits.Tip.Conflict>{0}\n\n冲突：\n{1}</EdB.PC.Panel.Traits.Tip.Conflict>
+  <EdB.PC.Panel.Traits.Tip.Conflict.List.1> - {0}</EdB.PC.Panel.Traits.Tip.Conflict.List.1>
+  <EdB.PC.Panel.Traits.Tip.Conflict.List.2> - {0}\n - {1}</EdB.PC.Panel.Traits.Tip.Conflict.List.2>
+  <EdB.PC.Panel.Traits.Tip.Conflict.List.Many> - {0}\n{1}</EdB.PC.Panel.Traits.Tip.Conflict.List.Many>
+  <EdB.PC.Panel.Traits.Tip.Conflict.List.Last> - {0}\n - {1}</EdB.PC.Panel.Traits.Tip.Conflict.List.Last>
+  <EdB.PC.TabView.Animals.Title>动物</EdB.PC.TabView.Animals.Title>
+  <EdB.PC.TabView.Equipment.Title>物资</EdB.PC.TabView.Equipment.Title>
+  <EdB.PC.TabView.Pawns.Title>角色</EdB.PC.TabView.Pawns.Title>
+  <EdB.PC.TabView.Relationships.Title>关系</EdB.PC.TabView.Relationships.Title>
+  <EdB.PC.Panel.WorldPawnList.Title>世界人物</EdB.PC.Panel.WorldPawnList.Title>
+  <!--临时添加游戏本体未引入的异象DLC脸形/殖民者类型-->
+  <EdB.PC.HeadType.Male_AverageNormal.label>男性-标准脸</EdB.PC.HeadType.Male_AverageNormal.label>
+  <EdB.PC.HeadType.Male_AveragePointy.label>男性-尖脸</EdB.PC.HeadType.Male_AveragePointy.label>
+  <EdB.PC.HeadType.Male_AverageWide.label>男性-宽脸</EdB.PC.HeadType.Male_AverageWide.label>
+  <EdB.PC.HeadType.Male_NarrowNormal.label>男性-标准窄脸</EdB.PC.HeadType.Male_NarrowNormal.label>
+  <EdB.PC.HeadType.Male_NarrowPointy.label>男性-尖窄脸</EdB.PC.HeadType.Male_NarrowPointy.label>
+  <EdB.PC.HeadType.Male_NarrowWide.label>男性-宽窄脸</EdB.PC.HeadType.Male_NarrowWide.label>
+  <EdB.PC.HeadType.Male_HeavyJawNormal.label>男性-超宽脸脸</EdB.PC.HeadType.Male_HeavyJawNormal.label>
+  <EdB.PC.HeadType.Female_AverageNormal.label>女性-标准脸</EdB.PC.HeadType.Female_AverageNormal.label>
+  <EdB.PC.HeadType.Female_AveragePointy.label>女性-尖脸</EdB.PC.HeadType.Female_AveragePointy.label>
+  <EdB.PC.HeadType.Female_AverageWide.label>女性-宽脸</EdB.PC.HeadType.Female_AverageWide.label>
+  <EdB.PC.HeadType.Female_NarrowNormal.label>女性-窄脸</EdB.PC.HeadType.Female_NarrowNormal.label>
+  <EdB.PC.HeadType.Female_NarrowPointy.label>女性-尖窄脸</EdB.PC.HeadType.Female_NarrowPointy.label>
+  <EdB.PC.HeadType.Female_NarrowWide.label>女性-宽窄脸</EdB.PC.HeadType.Female_NarrowWide.label>
+  <EdB.PC.HeadType.Female_HeavyJawNormal.label>女性-超宽脸脸</EdB.PC.HeadType.Female_HeavyJawNormal.label>
+  <EdB.PC.HeadType.Furskin_Average1.label>毛茸族-标准1</EdB.PC.HeadType.Furskin_Average1.label>
+  <EdB.PC.HeadType.Furskin_Average2.label>毛茸族-标准2</EdB.PC.HeadType.Furskin_Average2.label>
+  <EdB.PC.HeadType.Furskin_Average3.label>毛茸族-标准3</EdB.PC.HeadType.Furskin_Average3.label>
+  <EdB.PC.HeadType.Furskin_Narrow1.label>毛茸族-窄1</EdB.PC.HeadType.Furskin_Narrow1.label>
+  <EdB.PC.HeadType.Furskin_Narrow2.label>毛茸族-窄2</EdB.PC.HeadType.Furskin_Narrow2.label>
+  <EdB.PC.HeadType.Furskin_Narrow3.label>毛茸族-窄3</EdB.PC.HeadType.Furskin_Narrow3.label>
+  <EdB.PC.HeadType.Furskin_Heavy1.label>毛茸族-超宽脸1</EdB.PC.HeadType.Furskin_Heavy1.label>
+  <EdB.PC.HeadType.Furskin_Heavy2.label>毛茸族-超宽脸2</EdB.PC.HeadType.Furskin_Heavy2.label>
+  <EdB.PC.HeadType.Furskin_Heavy3.label>毛茸族-超宽脸3</EdB.PC.HeadType.Furskin_Heavy3.label>
+  <EdB.PC.HeadType.Furskin_Gaunt.label>毛茸族-憔悴脸</EdB.PC.HeadType.Furskin_Gaunt.label>
+  <EdB.PC.HeadType.Gaunt.label>憔悴脸</EdB.PC.HeadType.Gaunt.label>
+  <EdB.PC.HeadType.Ghoul_Normal.label>食尸鬼-普通脸</EdB.PC.HeadType.Ghoul_Normal.label>
+  <EdB.PC.HeadType.Ghoul_Narrow.label>食尸鬼-窄脸</EdB.PC.HeadType.Ghoul_Narrow.label>
+  <EdB.PC.HeadType.Ghoul_Wide.label>食尸鬼-宽脸</EdB.PC.HeadType.Ghoul_Wide.label>
+  <EdB.PC.HeadType.Ghoul_Heavy.label>食尸鬼-超宽脸</EdB.PC.HeadType.Ghoul_Heavy.label>
+  <EdB.PC.HeadType.CultEscapee.label>邪教脱逃者</EdB.PC.HeadType.CultEscapee.label>
+  <EdB.PC.HeadType.TimelessOne.label>永恒之人</EdB.PC.HeadType.TimelessOne.label>
+  <EdB.PC.HeadType.DarkScholar_Male.label>男性暗黑学者</EdB.PC.HeadType.DarkScholar_Male.label>
+  <EdB.PC.HeadType.Leathery_Male.label>男性皮衣怪人</EdB.PC.HeadType.Leathery_Male.label>
+  <EdB.PC.HeadType.DarkScholar_Female.label>女性暗黑学者</EdB.PC.HeadType.DarkScholar_Female.label>
+  <EdB.PC.HeadType.Leathery_Female.label>女性皮衣怪人</EdB.PC.HeadType.Leathery_Female.label>
+  <!--Null派系殖民者类型-->
+  <EdB.PC.PawnKind.Other>其他</EdB.PC.PawnKind.Other>
+  <!--脸形-->
+  <EdB.PC.HeadType.Skull>头骨</EdB.PC.HeadType.Skull>
+  <EdB.PC.HeadType.Stump>残桩</EdB.PC.HeadType.Stump>
+  <EdB.PC.HeadType.Male_AverageNormal>男性平均普通</EdB.PC.HeadType.Male_AverageNormal>
+  <EdB.PC.HeadType.Male_AveragePointy>男性平均尖形</EdB.PC.HeadType.Male_AveragePointy>
+  <EdB.PC.HeadType.Male_AverageWide>男性平均宽形</EdB.PC.HeadType.Male_AverageWide>
+  <EdB.PC.HeadType.Male_NarrowNormal>男性窄型普通</EdB.PC.HeadType.Male_NarrowNormal>
+  <EdB.PC.HeadType.Male_NarrowPointy>男性窄型尖形</EdB.PC.HeadType.Male_NarrowPointy>
+  <EdB.PC.HeadType.Male_NarrowWide>男性窄型宽形</EdB.PC.HeadType.Male_NarrowWide>
+  <EdB.PC.HeadType.Female_AverageNormal>女性平均普通</EdB.PC.HeadType.Female_AverageNormal>
+  <EdB.PC.HeadType.Female_AveragePointy>女性平均尖形</EdB.PC.HeadType.Female_AveragePointy>
+  <EdB.PC.HeadType.Female_AverageWide>女性平均宽形</EdB.PC.HeadType.Female_AverageWide>
+  <EdB.PC.HeadType.Female_NarrowNormal>女性窄型普通</EdB.PC.HeadType.Female_NarrowNormal>
+  <EdB.PC.HeadType.Female_NarrowPointy>女性窄型尖形</EdB.PC.HeadType.Female_NarrowPointy>
+  <EdB.PC.HeadType.Female_NarrowWide>女性窄型宽形</EdB.PC.HeadType.Female_NarrowWide>
+</LanguageData>
