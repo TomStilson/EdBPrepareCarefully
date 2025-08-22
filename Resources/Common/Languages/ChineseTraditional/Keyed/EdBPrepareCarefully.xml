@@ -450,48 +450,48 @@
   <EdB.PC.Panel.WorldPawnList.Title>世界人物</EdB.PC.Panel.WorldPawnList.Title>
 
   <!--臨時添加遊戲本體未引入的異象DLC臉形/殖民者類型-->
-  <EdB.PC.HeadType.Male_AverageNormal.label>男性-標準臉</EdB.PC.HeadType.Male_AverageNormal.label>
-  <EdB.PC.HeadType.Male_AveragePointy.label>男性-尖臉</EdB.PC.HeadType.Male_AveragePointy.label>
-  <EdB.PC.HeadType.Male_AverageWide.label>男性-寬臉</EdB.PC.HeadType.Male_AverageWide.label>
-  <EdB.PC.HeadType.Male_NarrowNormal.label>男性-標準窄臉</EdB.PC.HeadType.Male_NarrowNormal.label>
-  <EdB.PC.HeadType.Male_NarrowPointy.label>男性-尖窄臉</EdB.PC.HeadType.Male_NarrowPointy.label>
-  <EdB.PC.HeadType.Male_NarrowWide.label>男性-寬窄臉</EdB.PC.HeadType.Male_NarrowWide.label>
-  <EdB.PC.HeadType.Male_HeavyJawNormal.label>男性-超寬臉臉</EdB.PC.HeadType.Male_HeavyJawNormal.label>
+  <EdB.PC.HeadType.Male_AverageNormal>男性-標準臉</EdB.PC.HeadType.Male_AverageNormal>
+  <EdB.PC.HeadType.Male_AveragePointy>男性-尖臉</EdB.PC.HeadType.Male_AveragePointy>
+  <EdB.PC.HeadType.Male_AverageWide>男性-寬臉</EdB.PC.HeadType.Male_AverageWide>
+  <EdB.PC.HeadType.Male_NarrowNormal>男性-標準窄臉</EdB.PC.HeadType.Male_NarrowNormal>
+  <EdB.PC.HeadType.Male_NarrowPointy>男性-尖窄臉</EdB.PC.HeadType.Male_NarrowPointy>
+  <EdB.PC.HeadType.Male_NarrowWide>男性-寬窄臉</EdB.PC.HeadType.Male_NarrowWide>
+  <EdB.PC.HeadType.Male_HeavyJawNormal>男性-超寬臉</EdB.PC.HeadType.Male_HeavyJawNormal>
 
-  <EdB.PC.HeadType.Female_AverageNormal.label>女性-標準臉</EdB.PC.HeadType.Female_AverageNormal.label>
-  <EdB.PC.HeadType.Female_AveragePointy.label>女性-尖臉</EdB.PC.HeadType.Female_AveragePointy.label>
-  <EdB.PC.HeadType.Female_AverageWide.label>女性-寬臉</EdB.PC.HeadType.Female_AverageWide.label>
-  <EdB.PC.HeadType.Female_NarrowNormal.label>女性-窄臉</EdB.PC.HeadType.Female_NarrowNormal.label>
-  <EdB.PC.HeadType.Female_NarrowPointy.label>女性-尖窄臉</EdB.PC.HeadType.Female_NarrowPointy.label>
-  <EdB.PC.HeadType.Female_NarrowWide.label>女性-寬窄臉</EdB.PC.HeadType.Female_NarrowWide.label>
-  <EdB.PC.HeadType.Female_HeavyJawNormal.label>女性-超寬臉臉</EdB.PC.HeadType.Female_HeavyJawNormal.label>
+  <EdB.PC.HeadType.Female_AverageNormal>女性-標準臉</EdB.PC.HeadType.Female_AverageNormal>
+  <EdB.PC.HeadType.Female_AveragePointy>女性-尖臉</EdB.PC.HeadType.Female_AveragePointy>
+  <EdB.PC.HeadType.Female_AverageWide>女性-寬臉</EdB.PC.HeadType.Female_AverageWide>
+  <EdB.PC.HeadType.Female_NarrowNormal>女性-窄臉</EdB.PC.HeadType.Female_NarrowNormal>
+  <EdB.PC.HeadType.Female_NarrowPointy>女性-尖窄臉</EdB.PC.HeadType.Female_NarrowPointy>
+  <EdB.PC.HeadType.Female_NarrowWide>女性-寬窄臉</EdB.PC.HeadType.Female_NarrowWide>
+  <EdB.PC.HeadType.Female_HeavyJawNormal>女性-超寬臉</EdB.PC.HeadType.Female_HeavyJawNormal>
 
-  <EdB.PC.HeadType.Furskin_Average1.label>毛茸族-標準1</EdB.PC.HeadType.Furskin_Average1.label>
-  <EdB.PC.HeadType.Furskin_Average2.label>毛茸族-標準2</EdB.PC.HeadType.Furskin_Average2.label>
-  <EdB.PC.HeadType.Furskin_Average3.label>毛茸族-標準3</EdB.PC.HeadType.Furskin_Average3.label>
+  <EdB.PC.HeadType.Furskin_Average1>毛茸族-標準1</EdB.PC.HeadType.Furskin_Average1>
+  <EdB.PC.HeadType.Furskin_Average2>毛茸族-標準2</EdB.PC.HeadType.Furskin_Average2>
+  <EdB.PC.HeadType.Furskin_Average3>毛茸族-標準3</EdB.PC.HeadType.Furskin_Average3>
 
-  <EdB.PC.HeadType.Furskin_Narrow1.label>毛茸族-窄1</EdB.PC.HeadType.Furskin_Narrow1.label>
-  <EdB.PC.HeadType.Furskin_Narrow2.label>毛茸族-窄2</EdB.PC.HeadType.Furskin_Narrow2.label>
-  <EdB.PC.HeadType.Furskin_Narrow3.label>毛茸族-窄3</EdB.PC.HeadType.Furskin_Narrow3.label>
+  <EdB.PC.HeadType.Furskin_Narrow1>毛茸族-窄1</EdB.PC.HeadType.Furskin_Narrow1>
+  <EdB.PC.HeadType.Furskin_Narrow2>毛茸族-窄2</EdB.PC.HeadType.Furskin_Narrow2>
+  <EdB.PC.HeadType.Furskin_Narrow3>毛茸族-窄3</EdB.PC.HeadType.Furskin_Narrow3>
 
-  <EdB.PC.HeadType.Furskin_Heavy1.label>毛茸族-超寬臉1</EdB.PC.HeadType.Furskin_Heavy1.label>
-  <EdB.PC.HeadType.Furskin_Heavy2.label>毛茸族-超寬臉2</EdB.PC.HeadType.Furskin_Heavy2.label>
-  <EdB.PC.HeadType.Furskin_Heavy3.label>毛茸族-超寬臉3</EdB.PC.HeadType.Furskin_Heavy3.label>
+  <EdB.PC.HeadType.Furskin_Heavy1>毛茸族-超寬臉1</EdB.PC.HeadType.Furskin_Heavy1>
+  <EdB.PC.HeadType.Furskin_Heavy2>毛茸族-超寬臉2</EdB.PC.HeadType.Furskin_Heavy2>
+  <EdB.PC.HeadType.Furskin_Heavy3>毛茸族-超寬臉3</EdB.PC.HeadType.Furskin_Heavy3>
 
-  <EdB.PC.HeadType.Furskin_Gaunt.label>毛茸族-憔悴臉</EdB.PC.HeadType.Furskin_Gaunt.label>
+  <EdB.PC.HeadType.Furskin_Gaunt>毛茸族-憔悴臉</EdB.PC.HeadType.Furskin_Gaunt>
   
-  <EdB.PC.HeadType.Gaunt.label>憔悴臉</EdB.PC.HeadType.Gaunt.label>
+  <EdB.PC.HeadType.Gaunt>憔悴臉</EdB.PC.HeadType.Gaunt>
   
-  <EdB.PC.HeadType.Ghoul_Normal.label>食屍鬼-普通臉</EdB.PC.HeadType.Ghoul_Normal.label>
-  <EdB.PC.HeadType.Ghoul_Narrow.label>食屍鬼-窄臉</EdB.PC.HeadType.Ghoul_Narrow.label>
-  <EdB.PC.HeadType.Ghoul_Wide.label>食屍鬼-寬臉</EdB.PC.HeadType.Ghoul_Wide.label>
-  <EdB.PC.HeadType.Ghoul_Heavy.label>食屍鬼-超寬臉</EdB.PC.HeadType.Ghoul_Heavy.label>
-  <EdB.PC.HeadType.CultEscapee.label>邪教脫逃者</EdB.PC.HeadType.CultEscapee.label>
-  <EdB.PC.HeadType.TimelessOne.label>永恆之人</EdB.PC.HeadType.TimelessOne.label>
-  <EdB.PC.HeadType.DarkScholar_Male.label>男性暗黑學者</EdB.PC.HeadType.DarkScholar_Male.label>
-  <EdB.PC.HeadType.Leathery_Male.label>男性皮衣怪人</EdB.PC.HeadType.Leathery_Male.label>
-  <EdB.PC.HeadType.DarkScholar_Female.label>女性暗黑學者</EdB.PC.HeadType.DarkScholar_Female.label>
-  <EdB.PC.HeadType.Leathery_Female.label>女性皮衣怪人</EdB.PC.HeadType.Leathery_Female.label>
+  <EdB.PC.HeadType.Ghoul_Normal>食屍鬼-普通臉</EdB.PC.HeadType.Ghoul_Normal>
+  <EdB.PC.HeadType.Ghoul_Narrow>食屍鬼-窄臉</EdB.PC.HeadType.Ghoul_Narrow>
+  <EdB.PC.HeadType.Ghoul_Wide>食屍鬼-寬臉</EdB.PC.HeadType.Ghoul_Wide>
+  <EdB.PC.HeadType.Ghoul_Heavy>食屍鬼-超寬臉</EdB.PC.HeadType.Ghoul_Heavy>
+  <EdB.PC.HeadType.CultEscapee>邪教脫逃者</EdB.PC.HeadType.CultEscapee>
+  <EdB.PC.HeadType.TimelessOne>永恆之人</EdB.PC.HeadType.TimelessOne>
+  <EdB.PC.HeadType.DarkScholar_Male>男性暗黑學者</EdB.PC.HeadType.DarkScholar_Male>
+  <EdB.PC.HeadType.Leathery_Male>男性皮衣怪人</EdB.PC.HeadType.Leathery_Male>
+  <EdB.PC.HeadType.DarkScholar_Female>女性暗黑學者</EdB.PC.HeadType.DarkScholar_Female>
+  <EdB.PC.HeadType.Leathery_Female>女性皮衣怪人</EdB.PC.HeadType.Leathery_Female>
 
   <!--Null派系殖民者類型-->
   <EdB.PC.PawnKind.Other>其他</EdB.PC.PawnKind.Other>
