@@ -71,6 +71,11 @@ namespace EdB.PrepareCarefully {
         protected ProviderTraits providerTraits = null;
         protected TipCache tipCache = new TipCache();
         public List<Trait> originalTraits = new List<Trait>();
+        
+        // Search functionality
+        private QuickSearchWidget searchWidget = new QuickSearchWidget();
+        private string filterSearchTerm = null;
+        private List<TraitOption> filteredTraitOptions = new List<TraitOption>();
 
         public DialogManageTraits(ProviderTraits providerTraits) {
             this.closeOnCancel = true;
@@ -96,6 +101,16 @@ namespace EdB.PrepareCarefully {
                 traitOptionList.Add(new TraitOption() {
                     Trait = trait,
                 });
+            }
+            ApplyCurrentFilters();
+        }
+
+        protected void ApplyCurrentFilters() {
+            filteredTraitOptions.Clear();
+            foreach (var traitOption in traitOptionList) {
+                if (filterSearchTerm == null || traitOption.Trait.LabelCap.IndexOf(filterSearchTerm, StringComparison.CurrentCultureIgnoreCase) != -1) {
+                    filteredTraitOptions.Add(traitOption);
+                }
             }
         }
 
@@ -141,6 +156,7 @@ namespace EdB.PrepareCarefully {
                     }
                 });
             }
+            ApplyCurrentFilters();
         }
 
         protected void MarkOptionsAsDirty() {
@@ -333,11 +349,24 @@ namespace EdB.PrepareCarefully {
                 Widgets.Label(headerRect, HeaderLabel);
             }
 
+            // Draw search widget
+            //Rect searchRect = new Rect(inRect.width - 220, HeaderRect.y + 10, 210, 24);
+            Rect searchRect = new Rect(inRect.width - 220, HeaderRect.y - 25, 210, 24);
+            searchWidget.OnGUI(searchRect,
+                () => {
+                    filterSearchTerm = searchWidget.filter.Text;
+                    ApplyCurrentFilters();
+                },
+                () => {
+                    filterSearchTerm = null;
+                    ApplyCurrentFilters();
+                });
+
             Text.Font = GameFont.Small;
             GUI.BeginGroup(ContentRect);
 
             try {
-                table.Draw(this.traitOptionList);
+                table.Draw(this.filteredTraitOptions);
             }
             finally {
                 GUI.EndGroup();
