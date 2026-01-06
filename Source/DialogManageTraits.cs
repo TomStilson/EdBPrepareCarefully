@@ -240,8 +240,10 @@ namespace EdB.PrepareCarefully {
             HeaderHeight = 32;
             FooterHeight = 40f;
             WindowPadding = 18;
-            ContentMargin = new Vector2(10f, 18f);
-            WindowSize = new Vector2(440f, 584f);
+            // Increase top margin to accommodate search widget above header
+            ContentMargin = new Vector2(10f, 45f);
+            // Increase window height to maintain same content area size
+            WindowSize = new Vector2(440f, 620f);
             ButtonSize = new Vector2(140f, 40f);
 
             ContentSize = new Vector2(WindowSize.x - WindowPadding * 2 - ContentMargin.x * 2,
@@ -351,7 +353,7 @@ namespace EdB.PrepareCarefully {
 
             // Draw search widget
             //Rect searchRect = new Rect(inRect.width - 220, HeaderRect.y + 10, 210, 24);
-            Rect searchRect = new Rect(inRect.width - 220, HeaderRect.y - 25, 210, 24);
+            Rect searchRect = new Rect(inRect.width - 220, HeaderRect.y - 30, 210, 24);
             searchWidget.OnGUI(searchRect,
                 () => {
                     filterSearchTerm = searchWidget.filter.Text;
